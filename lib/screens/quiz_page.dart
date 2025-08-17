@@ -162,7 +162,7 @@ class _QuizPageState extends State<QuizPage> {
                         if (currentIndex == questions.length - 1) {
                               // Navigator.pushReplacement(
                               //   context,
-                              //   MaterialPageRoute(builder: (context) => const ResultPage()), // زميلك يعمل ResultPage
+                              //   MaterialPageRoute(builder: (context) => const ResultPage()),
                               // );
                         } else {
                           goToNextQuestion();
@@ -176,3 +176,4 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
+
